@@ -1,0 +1,56 @@
+body{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#hero{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(135, 148, 249);
+    width:700px ;
+    height: 250px;
+}
+
+h2{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 40px;
+}
+
+button{background: rgb(239, 237, 237);
+    font-size: 18px;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+    width: 160px;
+}
+
+
+#other{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(164, 164, 164);
+    width:700px ;
+    height: 400px;
+}
+
+.div{display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin-bottom: 15px;
+    width: 600px;
+height: 100px;}
+
+.div h2{font-size: 18px;
+    color:rgb(135, 148, 249) ;
+margin-top: 0px;}
